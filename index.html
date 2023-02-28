@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/index.css">
+  <!--  <link rel="stylesheet" href="aos-master/dist/aos.css" /> -->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-circle-progress/1.2.2/circle-progress.min.js"></script>
+      <!-- feather icons -->
+ <script src="https://unpkg.com/feather-icons"></script>
+  <title>Portofolio</title>
+</head>
+<body>
+  <!-- navbar start -->
+  <nav>
+    <h2 class="me">Trio <span>Agus</span></h2>
+    <div class="nav">
+    <li><a href="#">Beranda</a></li>
+    <li><a href="#about">Tentang Saya</a></li>
+    <li><a href="#skill">Skill</a></li>
+    <li><a href="#contact">Kontak</a></li>
+    </div>
+     <div id="menu-button">
+        <input type="checkbox" name="checkbox" id="menu-checkbox">
+        <label id="menu-label" for="menu-checkbox">
+        <div id="hamburger"></div>
+          </label>
+    </div> 
+  </nav>
+  <!-- navbar end -->
+  <!-- section profil start -->
+  <section  data-aos="fade" class="profil">
+    <div class="gambar">
+      <img data-aos="zoom-out-right" src="img/profil.png" alt="" />
+    </div>
+    <div class="about" id="about">
+      <h4 data-aos="fade-up">Tentang <span>Saya</span></h4>
+      <div data-aos="slide-left" class="diri">
+        <p>Perkenalkan, Nama Saya Trio Agus Susanto. Saya bekerja sebagai videografer di salah satu Farm Koi di
+        Kediri. Saat saya juga tertarik di bidang dunia programing  khususnya Web programing, dan terus belajar coding agar menjadi Web Developer yang handal.</p>
+      </div>
+      <div data-aos="slide-in-right" class="tombol">
+      <button type="submit" id="whatsapp-cta">Hubungi Saya</button>
+      </div>
+    </div>
+  </section>
+  <!-- section profil end -->
+  <!-- section skill start -->
+  <section class="skill" id="skill">
+    <h4>Skill</h4>
+	  <div class="wrapper">
+	     <div class="card">
+		<div data-aos="zoom-out-up" class="circle">
+          <div class="bar"></div>
+          <div class="box"><span></span></div>
+        </div>
+        <div class="text">HTML & CSS</div>
+      </div>
+	     <div  data-aos="slide-right" class="card js">
+		<div class="circle">
+          <div class="bar"></div>
+          <div class="box"><span></span></div>
+        </div>
+        <div class="text">JavaScript</div>
+      </div>
+	     <div class="card php">
+		<div class="circle">
+          <div class="bar"></div>
+          <div class="box"><span></span></div>
+        </div>
+        <div class="text">PHP</div>
+      </div>
+	  
+      <div class="card mysql">
+        <div class="circle">
+          <div class="bar"></div>
+          <div class="box"><span></span></div>
+        </div>
+        <div class="text">MySql</div>
+      </div>
+      </div>
+  </section>
+  <!-- section skill end -->
+  <!-- section kontak start -->
+  <section class="contact" id="contact">
+    <h4>Hubungi <span>Saya</span></h4>
+    <form action="" method="post" accept-charset="utf-8">
+      <div class="groub">
+      <label for="name">Nama :</label>
+      <input type="text" name="name" id="name" value="" />
+      </div>
+      <div class="groub">
+      <label for="email">Email :</label>
+      <input type="email" name="email" id="email" value="" />
+      </div>
+      <div class="megs">
+        <textarea name="pesan" id=pesan rows="8" cols="27">Masukkan pesan</textarea>
+      </div>
+      <div class="button">
+        <button type="submit">Kirim</button>
+      </div>
+    </form>
+  </section>
+  <!-- section kontak end -->
+  <!-- footer start -->
+  <footer>
+    <div class="social">
+      <a href="#"><i data-feather="instagram"></i></a>
+    </div>
+    <div class="link">
+      <a href="#">Beranda</a>
+      <a href="#about">Tentang Saya</a>
+      <a href="#skill">Skill</a>
+      <a href="#contact">Kontak</a>
+    </div>
+      <div class="credit">
+   <p>Created By. <a href="#">Trio Agus Susanto</a> | &copy 2023.</p>
+   </div>
+  </footer>
+  <!-- footer end -->
+  <!-- <script src="aos-master/dist/aos.js"></script> 
+    <script>
+    AOS.init();
+  </script> -->
+  
+  <script>
+      feather.replace()
+</script>
+	<script src="/js/index.js" type="text/javascript" charset="utf-8"></script>
+</body>
+</html>
